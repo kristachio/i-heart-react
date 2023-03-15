@@ -13,7 +13,12 @@ const Heart = (props) => {
 };
 
 function App() {
-  return <Heart msg={message} />;
-}
+  return (
+    <>
+    <div className='App-header'>I ❤️ React </div>
+    <Heart msg={message} />
+    </>
+  )
+};
 
 export default App;
